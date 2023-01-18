@@ -1,3 +1,5 @@
+// love calculator without using control statements i.e. if else
+
 prompt("whats ur name");
 prompt("whats ur crush's name");
 
