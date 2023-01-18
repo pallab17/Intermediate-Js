@@ -1,1 +1,9 @@
 
+var gL=["pallab","palla", "pall", "ban" , "bar"];
+var gN= prompt("ki naam search korcho ?");
+  if(gL.includes(gN)){
+    alert("welcome");
+    
+  } else{
+    alert("next time ");
+  }
