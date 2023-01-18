@@ -1,1 +1,22 @@
 
+function whosPaying(names) {
+    
+/******Don't change the code above*******/
+    
+    //Write your code here.
+    var nop=names.length;  // 5
+    var rpp=Math.floor(Math.random() * nop); // 0-4
+    var rp=names[rpp];   // 2
+    
+    return rp + " is going to buy lunch today!";
+    
+    
+    
+    
+    
+    
+    
+
+
+/******Don't change the code below*******/    
+}
