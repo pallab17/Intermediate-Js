@@ -1,1 +1,41 @@
 
+var o=[];
+var c=1;
+
+function fizzBuzz() {
+
+  while (c<=100) {
+    
+ 
+
+
+  
+   if (c%3===0 && c%5===0) {
+    o.push("FizzBuzz");
+    
+  }
+
+  else if (c%3===0) {
+    o.push("Fizz");
+    
+  }
+    else if (c%5===0) {
+    o.push("Buzz");
+    
+  }
+  
+  
+  
+  else{
+    o.push(c);
+  }
+
+
+  
+  
+  c++;
+     }
+
+  
+  console.log(o);
+}
