@@ -1,0 +1,18 @@
+prompt("whats ur name");
+prompt("whats ur crush's name");
+
+var love_calculator=Math.random() * 99; 
+// math .random function ta generally 0-0.99999 opdi random value deye but amra jehetu love calc banachi so we need value till 100
+love_calculator=Math.floor(love_calculator) + 1; 
+// floor fn use korlam as 0-99.999999 opdii value debe but we need whole numbers mane amra kono floating no  chai na
+// +1 korchi jate 1-100 opdi value pai
+//console.log(love_calculator);
+
+if (love_calculator>70) {
+  alert("ur love score is " + love_calculator + "%"   + " pb7 loves u");
+}else{
+  alert("ur love score is " + love_calculator + "%");
+}
+
+
+
