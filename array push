@@ -1,1 +1,10 @@
+var o=[];
+var c=1;
 
+function fizzBuzz() {
+  o.push(c);
+  c++;
+
+  
+  console.log(o);
+}
